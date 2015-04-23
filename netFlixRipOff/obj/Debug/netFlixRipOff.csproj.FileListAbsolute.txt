@@ -1,0 +1,17 @@
+c:\users\joshua\documents\visual studio 2013\Projects\netFlixRipOff\netFlixRipOff\bin\Debug\netFlixRipOff.exe.config
+c:\users\joshua\documents\visual studio 2013\Projects\netFlixRipOff\netFlixRipOff\bin\Debug\netFlixRipOff.exe
+c:\users\joshua\documents\visual studio 2013\Projects\netFlixRipOff\netFlixRipOff\bin\Debug\netFlixRipOff.pdb
+c:\users\joshua\documents\visual studio 2013\Projects\netFlixRipOff\netFlixRipOff\obj\Debug\netFlixRipOff.csprojResolveAssemblyReference.cache
+c:\users\joshua\documents\visual studio 2013\Projects\netFlixRipOff\netFlixRipOff\obj\Debug\MainWindow.baml
+c:\users\joshua\documents\visual studio 2013\Projects\netFlixRipOff\netFlixRipOff\obj\Debug\MainWindow.g.cs
+c:\users\joshua\documents\visual studio 2013\Projects\netFlixRipOff\netFlixRipOff\obj\Debug\App.g.cs
+c:\users\joshua\documents\visual studio 2013\Projects\netFlixRipOff\netFlixRipOff\obj\Debug\netFlixRipOff_MarkupCompile.cache
+c:\users\joshua\documents\visual studio 2013\Projects\netFlixRipOff\netFlixRipOff\obj\Debug\netFlixRipOff.g.resources
+c:\users\joshua\documents\visual studio 2013\Projects\netFlixRipOff\netFlixRipOff\obj\Debug\netFlixRipOff.Properties.Resources.resources
+c:\users\joshua\documents\visual studio 2013\Projects\netFlixRipOff\netFlixRipOff\obj\Debug\netFlixRipOff.csproj.GenerateResource.Cache
+c:\users\joshua\documents\visual studio 2013\Projects\netFlixRipOff\netFlixRipOff\obj\Debug\netFlixRipOff.exe
+c:\users\joshua\documents\visual studio 2013\Projects\netFlixRipOff\netFlixRipOff\obj\Debug\netFlixRipOff.pdb
+c:\users\joshua\documents\visual studio 2013\Projects\netFlixRipOff\netFlixRipOff\obj\Debug\signUpDropDown.baml
+c:\users\joshua\documents\visual studio 2013\Projects\netFlixRipOff\netFlixRipOff\obj\Debug\signUpDropDown.g.cs
+c:\users\joshua\documents\visual studio 2013\Projects\netFlixRipOff\netFlixRipOff\obj\Debug\signUpPage.baml
+c:\users\joshua\documents\visual studio 2013\Projects\netFlixRipOff\netFlixRipOff\obj\Debug\signUpPage.g.cs
