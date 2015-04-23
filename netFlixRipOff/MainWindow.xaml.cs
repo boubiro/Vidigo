@@ -32,6 +32,7 @@ namespace netFlixRipOff
 
         private void signUp_Click(object sender, RoutedEventArgs e)
         {
+
             MessageBox.Show(this.userName.Text);
         }
     }
