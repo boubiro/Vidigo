@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="netFlixRipOff.closedSearched"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="800">
+    <Grid>
+
+        <Rectangle Fill="#009688" HorizontalAlignment="Left" Height="65" Stroke="#009668" VerticalAlignment="Top" Width="792"/>
+        <Label HorizontalAlignment="Left" HorizontalContentAlignment="Center" Height="40" Margin="44,10,0,0" 
+        	VerticalAlignment="Top" Width="93" Foreground="White" FontWeight="Bold" FontFamily="/Fonts/roboto/#Roboto" 
+        	FontSize="24" Content="Vidgio"/>
+        
+        <!--<Canvas>
+            <Button Canvas.Right="1" Name="searchButton" HorizontalAlignment="Left" Margin="734,10,0,0" VerticalAlignment="Top" Width="48" Background="#009688" Height="42" BorderBrush="#009668" Click="Button_Click" >
+                <Image Source="/Icons/magnifying-glass34.png" Height="32"/>
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="Button.GotFocus">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation
+                                    Storyboard.TargetProperty="(Canvas.Right)"
+                                    From="1.0" To="125.0" Duration="0:0:.25"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                    <EventTrigger RoutedEvent="Button.LostFocus">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation
+                                    Storyboard.TargetProperty="(Canvas.Right)"
+                                    From="125.0" To="1.0" Duration="0:0:.25"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Button.Triggers>
+            </Button>
+            <TextBox Height="23" Canvas.Left="670" TextWrapping="Wrap" Text="TextBox" Canvas.Top="20" Width="120"/>
+
+        </Canvas>-->
+        <ContentControl Name="showSearchBox">
+            <Label Content="Begin Your Search" BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Margin="229,193,0,0" VerticalAlignment="Top" Height="122" Width="354" FontFamily="/Fonts/roboto/#Roboto" Foreground="White" FontSize="34" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        </ContentControl>
+    </Grid>
+</UserControl>

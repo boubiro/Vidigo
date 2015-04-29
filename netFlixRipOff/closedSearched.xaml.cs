@@ -9,6 +9,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -16,13 +17,24 @@ using System.Windows.Shapes;
 namespace netFlixRipOff
 {
     /// <summary>
-    /// Interaction logic for signUpDropDown.xaml
+    /// Interaction logic for closedSearched.xaml
     /// </summary>
-    public partial class signUpDropDown : Page
+    public partial class closedSearched : UserControl
     {
-        public signUpDropDown()
+        public closedSearched()
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.showSearchBox.Content = new showSearch();
+        }
+
+        private void searchBox_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
     }
 }

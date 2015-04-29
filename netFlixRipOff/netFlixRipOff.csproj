@@ -36,6 +36,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -53,12 +55,32 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="signUpDropDown.xaml.cs">
-      <DependentUpon>signUpDropDown.xaml</DependentUpon>
+    <Compile Include="billingWindow.xaml.cs">
+      <DependentUpon>billingWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="closedSearched.xaml.cs">
+      <DependentUpon>closedSearched.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="searchPage.xaml.cs">
+      <DependentUpon>searchPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="showResults.xaml.cs">
+      <DependentUpon>showResults.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="showSearch.xaml.cs">
+      <DependentUpon>showSearch.xaml</DependentUpon>
     </Compile>
     <Compile Include="signUpPage.xaml.cs">
       <DependentUpon>signUpPage.xaml</DependentUpon>
     </Compile>
+    <Page Include="billingWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="closedSearched.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -71,7 +93,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="signUpDropDown.xaml">
+    <Page Include="searchPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="showResults.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="showSearch.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -130,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Icons\345345.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\magnifying-glass34.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
